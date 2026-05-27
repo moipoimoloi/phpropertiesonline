@@ -44,7 +44,7 @@ function PropertyCard({ property }: { property: Property }) {
           href={`/?interest=${encodeURIComponent(property.name)}#contact`}
           className="mt-4 text-primary font-display font-semibold text-label-md inline-flex items-center gap-1 hover:gap-2 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary rounded"
         >
-          Get Free Computation <Icon name="arrow_forward" className="text-base" />
+          Request Free Computation <Icon name="arrow_forward" className="text-base" />
         </Link>
       </div>
     </article>
@@ -56,7 +56,7 @@ export function PropertyGrid({ filters }: { filters?: PropertyFilters }) {
   const filtered = hasActiveFilters(filters ?? {});
 
   return (
-    <section id="properties" className="py-24 bg-surface-container-low scroll-mt-24">
+    <section id="properties" className="py-28 lg:py-32 bg-surface-container-low scroll-mt-24">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <Reveal as="div" className="flex flex-col md:flex-row md:justify-between md:items-end gap-4 mb-12">
           <div>
@@ -80,7 +80,7 @@ export function PropertyGrid({ filters }: { filters?: PropertyFilters }) {
               className="text-primary font-display font-semibold text-label-md inline-flex items-center gap-2 hover:gap-3 transition-all"
               href="#contact"
             >
-              Get Free Computation <Icon name="arrow_forward" />
+              Request Free Computation <Icon name="arrow_forward" />
             </a>
           </div>
         </Reveal>

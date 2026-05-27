@@ -17,11 +17,11 @@ export const faqs: readonly Faq[] = [
     id: "payment-terms",
     question: "What payment terms are available?",
     answer:
-      "Most Avida Land projects offer Spot Cash, Spot Down Payment (with a discount), and Deferred Down Payment over 12–48 months. After the down payment period, the balance is paid via bank financing, Pag-IBIG, in-house financing, or spot cash. I'll prepare sample computations so you can compare options side-by-side."
+      "Most Avida Land projects offer Spot Cash, Spot Down Payment (with a discount), and Deferred Down Payment over 12–48 months. After the down-payment period, the balance is paid via bank financing, Pag-IBIG, in-house financing, or spot cash. I'll prepare sample computations so you can compare options side-by-side."
   },
   {
     id: "ofw-buyers",
-    question: "Can OFWs and Filipinos abroad buy property?",
+    question: "Can OFWs and Filipinos living abroad buy property?",
     answer:
       "Yes. Filipino citizens — including OFWs and dual citizens — can purchase any property type. We can complete the entire process remotely: video site tours, e-signed reservation documents, online payments, and an authorized representative for personal handover. Most of my OFW clients close without flying home."
   },
@@ -53,7 +53,7 @@ export const faqs: readonly Faq[] = [
     id: "site-visit",
     question: "How do I schedule a site visit?",
     answer:
-      "Send a message through the Contact form, call, or message me on Facebook with your preferred date and the project you'd like to see. Tripping is free, and I'll coordinate with the developer to arrange a unit tour, scale-model walkthrough, and an on-site sample computation."
+      "Send a message through the Contact form, call, or message me on Facebook with your preferred date and the project you'd like to see. The site visit is free, and I'll coordinate with the developer to arrange a unit tour, scale-model walkthrough, and an on-site sample computation."
   },
   {
     id: "loan-options",

@@ -106,13 +106,13 @@ export function Footer() {
           trademark of Avida Land Corp.; this site is operated by an authorized property specialist. Project details
           are based on developer marketing materials and may change without notice.
         </p>
-        <p className="text-label-sm text-on-surface-variant shrink-0 md:text-right md:pt-0">
+        <p className="text-xs text-on-surface-variant/70 shrink-0 md:text-right md:pt-0">
           Powered by{" "}
           <a
             href="https://m.me/genxcript"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-display font-semibold text-on-surface hover:text-primary transition-colors"
+            className="text-on-surface-variant/80 hover:text-primary transition-colors underline-offset-2 hover:underline"
           >
             GenXcript
           </a>

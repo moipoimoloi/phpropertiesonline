@@ -2,7 +2,7 @@ import { Icon } from "./Icon";
 import { Reveal } from "./Reveal";
 
 const stats = [
-  { value: "Top 9", label: "TEAM PRODUCTION · Q1 2026" },
+  { value: "Top 9", label: "SALES TEAM RECOGNITION · Q1 2026" },
   { value: "Top 13", label: "INDIVIDUAL PRODUCTION" },
   { value: "1,800 ha", label: "ALVIERA ESTATE FOOTPRINT" }
 ] as const;
@@ -27,7 +27,7 @@ const reasons = [
 
 export function StatsAndWhy() {
   return (
-    <section className="py-20 bg-surface">
+    <section className="py-24 lg:py-28 bg-surface">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <Reveal as="div" className="grid grid-cols-1 md:grid-cols-3 gap-gutter text-center border-b border-outline-variant/40 pb-16">
           {stats.map((s, i) => (

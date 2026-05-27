@@ -41,35 +41,23 @@ export function Hero() {
 
       <div className="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-20 lg:pb-24">
         {/* ====== Text panel — backdrop blur veil for typographic clarity ====== */}
-        <div className="hero-fade-up max-w-[680px] text-white mb-12 lg:mb-14">
+        <div className="hero-fade-up max-w-[720px] text-white mb-12 lg:mb-14">
           <span className="inline-block bg-white/95 text-primary px-4 py-1.5 rounded-full text-label-sm shadow-lg mb-7">
-            SMART INVESTMENTS · ONE PROPERTY AT A TIME
+            SMART PROPERTY INVESTMENTS · CURATED FOR LONG-TERM VALUE
           </span>
           <h1 className="font-display font-extrabold text-white mb-6 leading-[1.05] tracking-tight text-[clamp(2.5rem,5.5vw,3.75rem)]">
-            <span className="font-accent italic font-medium text-white/90 text-[clamp(1.5rem,3vw,2.25rem)] block mb-1">
-              Premier Philippine properties.
-            </span>
-            Invest in locations that appreciate.
+            Invest in properties positioned for long-term growth.
           </h1>
-          <p className="font-body text-white/85 text-body-lg max-w-[600px] leading-relaxed">
-            From Metro Manila condos to master-planned estates in Laguna and Pampanga — I help families and investors
-            find the right home with sample computations, site visits, and end-to-end guidance.
+          <p className="font-body text-white/85 text-body-lg max-w-[620px] leading-relaxed">
+            From Metro Manila condominiums to master-planned estates in Laguna and Pampanga, I help families and
+            investors make informed property decisions with guided site visits and personalized computations.
           </p>
 
-          {/* ====== Trust signals row ====== */}
-          <ul className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-white/85 text-label-sm">
-            <li className="flex items-center gap-2">
-              <Icon name="verified" className="text-base text-white" />
-              <span>Licensed Broker · REB 0033432</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <Icon name="workspace_premium" className="text-base text-white" />
-              <span>Authorized · Avida Land Corp</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <Icon name="military_tech" className="text-base text-white" />
-              <span>Q1 2026 · Top 9 Team</span>
-            </li>
+          {/* ====== Trust badges row ====== */}
+          <ul className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 text-white/90 text-label-sm">
+            <TrustBadge>Licensed Real Estate Broker · REB No. 0033432</TrustBadge>
+            <TrustBadge>Accredited Property Specialist · Avida Land Corp.</TrustBadge>
+            <TrustBadge>Recognized Sales Performance · Top 9 Team · Q1 2026</TrustBadge>
           </ul>
         </div>
 
@@ -109,5 +97,25 @@ export function Hero() {
         </form>
       </div>
     </section>
+  );
+}
+
+function TrustBadge({ children }: { children: React.ReactNode }) {
+  return (
+    <li className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-3 py-1.5">
+      <svg
+        viewBox="0 0 20 20"
+        className="w-3.5 h-3.5 shrink-0 text-white"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M4 10.5l4 4 8-9" />
+      </svg>
+      <span className="leading-none">{children}</span>
+    </li>
   );
 }

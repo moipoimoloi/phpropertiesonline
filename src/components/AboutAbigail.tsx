@@ -12,7 +12,7 @@ const credentials = [
 
 export function AboutAbigail() {
   return (
-    <section id="about" className="py-24 bg-surface">
+    <section id="about" className="py-28 lg:py-32 bg-surface">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-center">
           <Reveal as="div" className="lg:col-span-2">
@@ -39,7 +39,7 @@ export function AboutAbigail() {
             </p>
             <p className="text-body-md text-on-surface-variant mb-8">
               From walking through a unit in Mandaluyong to mapping out long-term value in an emerging hub like Alviera,
-              the goal is simple: help you make a decision you&apos;ll still feel good about five and ten years from now.
+              the goal is simple: help you invest in a property you&apos;ll still be proud of years from now.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

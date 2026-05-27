@@ -233,14 +233,14 @@ export function InquiryForm() {
           </>
         ) : (
           <>
-            <span>Get My Free Computation</span>
+            <span>Request Free Computation</span>
             <Icon name="arrow_forward" className="text-base" />
           </>
         )}
       </button>
       <p className="text-label-sm text-on-surface-variant text-center flex items-center justify-center gap-1.5">
         <Icon name="verified" className="text-base text-primary" />
-        <span>Reply within 1 business day · Your details are used only to respond.</span>
+        <span>Reply within one business day · Your details are used only to respond.</span>
       </p>
     </form>
   );

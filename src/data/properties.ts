@@ -76,7 +76,7 @@ export const properties: readonly Property[] = [
 
 export const BROKER = {
   name: "Abigail S. Natan",
-  title: "Branch Manager · Avida Land Corp",
+  title: "Branch Manager · Avida Land Corp.",
   reb: "0033432",
   rebValidUntil: "02/08/2026",
   phone: "+63 919 004 6498",
