@@ -12,11 +12,11 @@ const credentials = [
 
 export function AboutAbigail() {
   return (
-    <section id="about" className="py-16 lg:py-32 bg-surface">
+    <section id="about" className="py-10 lg:py-32 bg-surface">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-center">
           <Reveal as="div" className="lg:col-span-2">
-            <div className="relative">
+            <div className="relative max-w-xs mx-auto lg:max-w-none">
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-secondary-container/30 rounded-full blur-3xl" aria-hidden />
               <div className="relative z-10 w-full aspect-[4/5] rounded-xl shadow-xl overflow-hidden bg-surface-container-low">
                 <Image

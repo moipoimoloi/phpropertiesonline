@@ -53,10 +53,7 @@ export function Testimonials() {
         <Reveal as="div" className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
           <span className="text-label-sm text-primary tracking-widest">CLIENT STORIES</span>
           <h2 className="font-display text-headline-md mt-3 mb-4 leading-tight">
-            <span className="font-accent italic font-medium text-on-surface-variant block mb-1 text-headline-sm">
-              In their own words —
-            </span>
-            buyers I&apos;ve helped find a home.
+            Stories from the buyers I&apos;ve helped find home.
           </h2>
           <p className="text-body-md text-on-surface-variant">
             From first-time buyers in Metro Manila to OFW investors across the region.

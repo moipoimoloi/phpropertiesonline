@@ -159,10 +159,10 @@ export function Header() {
         }}
         className="bg-primary text-white text-label-sm overflow-hidden"
       >
-        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-2 flex flex-row sm:flex-wrap justify-between items-center gap-x-3 gap-y-1">
+        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-1 sm:py-2 flex flex-row sm:flex-wrap justify-between items-center gap-x-3 gap-y-1 text-[11px] sm:text-label-sm">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <span className="flex items-center gap-1">
-              <Icon name="verified" className="text-base" />
+              <Icon name="verified" className="text-sm sm:text-base" />
               REB Lic. No. {BROKER.reb}
             </span>
             <span className="hidden md:flex items-center gap-1">
@@ -173,10 +173,10 @@ export function Header() {
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <a
               href={BROKER.phoneHref}
-              className="flex items-center gap-1 hover:underline py-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white rounded"
+              className="flex items-center gap-1 hover:underline py-0.5 sm:py-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white rounded"
               tabIndex={scrolled ? 0 : -1}
             >
-              <Icon name="call" className="text-base" />
+              <Icon name="call" className="text-sm sm:text-base" />
               {BROKER.phone}
             </a>
             <a
