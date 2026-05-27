@@ -204,7 +204,7 @@ export function Header() {
         }}
         className="border-b"
       >
-        <div className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-5 lg:py-6 max-w-container-max mx-auto">
+        <div className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-3 lg:py-6 max-w-container-max mx-auto">
           <a
             href="#top"
             className="flex items-center gap-3 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary rounded"
@@ -214,17 +214,17 @@ export function Header() {
               alt="Avida"
               width={120}
               height={36}
-              className="h-9 w-auto object-contain"
+              className="h-7 sm:h-9 w-auto object-contain"
               priority
             />
             <span
-              className={`hidden sm:flex flex-col leading-tight border-l pl-3 transition-colors ${
+              className={`flex flex-col leading-tight border-l pl-2 sm:pl-3 transition-colors ${
                 opaque ? "border-outline-variant/60" : "border-white/40"
               }`}
             >
-              <span className={`text-label-sm ${opaque ? "text-on-surface-variant" : "text-white/80"}`}>by</span>
+              <span className={`text-[10px] sm:text-label-sm ${opaque ? "text-on-surface-variant" : "text-white/80"}`}>by</span>
               <span
-                className={`font-display font-semibold text-label-md -mt-0.5 ${
+                className={`font-display font-semibold text-[11px] sm:text-label-md -mt-0.5 whitespace-nowrap ${
                   opaque ? "text-on-surface" : "text-white drop-shadow"
                 }`}
               >
