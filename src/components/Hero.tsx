@@ -29,15 +29,10 @@ export function Hero() {
       id="hero"
       className="relative min-h-[640px] lg:h-screen lg:min-h-[760px] flex flex-col justify-end"
     >
-      <video
+      <img
         className="absolute inset-0 w-full h-full object-cover"
-        src="/hero.mp4"
-        poster="/hero-poster.jpg"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="auto"
+        src="/hero-poster.jpg"
+        alt=""
         aria-hidden
       />
       <div className="absolute inset-0 hero-gradient" aria-hidden />
