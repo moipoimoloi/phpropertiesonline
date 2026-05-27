@@ -11,7 +11,7 @@ const driveTimes = [
 
 export function AlvieraSpotlight() {
   return (
-    <section className="py-28 lg:py-32 text-white overflow-hidden bg-charcoal">
+    <section className="py-16 lg:py-32 text-white overflow-hidden bg-charcoal">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <Reveal as="div">

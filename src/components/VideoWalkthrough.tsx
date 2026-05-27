@@ -7,7 +7,7 @@ const VIDEO_TITLE = "Ayala Land property walkthrough";
 
 export function VideoWalkthrough() {
   return (
-    <section className="py-28 lg:py-32">
+    <section className="py-16 lg:py-32">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <Reveal as="div" className="relative">

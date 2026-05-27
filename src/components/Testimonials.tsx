@@ -48,7 +48,7 @@ function Stars({ count }: { count: number }) {
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="py-28 lg:py-32 bg-surface-container-low">
+    <section id="testimonials" className="py-16 lg:py-32 bg-surface-container-low">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <Reveal as="div" className="text-center max-w-2xl mx-auto mb-12 lg:mb-16">
           <span className="text-label-sm text-primary tracking-widest">CLIENT STORIES</span>

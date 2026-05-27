@@ -12,7 +12,7 @@ const credentials = [
 
 export function AboutAbigail() {
   return (
-    <section id="about" className="py-28 lg:py-32 bg-surface">
+    <section id="about" className="py-16 lg:py-32 bg-surface">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-center">
           <Reveal as="div" className="lg:col-span-2">

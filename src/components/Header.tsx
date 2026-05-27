@@ -159,7 +159,7 @@ export function Header() {
         }}
         className="bg-primary text-white text-label-sm overflow-hidden"
       >
-        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-2 flex flex-col sm:flex-row sm:flex-wrap sm:justify-between sm:items-center gap-1 sm:gap-2">
+        <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-2 flex flex-row sm:flex-wrap justify-between items-center gap-x-3 gap-y-1">
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
             <span className="flex items-center gap-1">
               <Icon name="verified" className="text-base" />

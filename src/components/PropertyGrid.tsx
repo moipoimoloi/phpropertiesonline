@@ -56,7 +56,7 @@ export function PropertyGrid({ filters }: { filters?: PropertyFilters }) {
   const filtered = hasActiveFilters(filters ?? {});
 
   return (
-    <section id="properties" className="py-28 lg:py-32 bg-surface-container-low scroll-mt-24">
+    <section id="properties" className="py-16 lg:py-32 bg-surface-container-low scroll-mt-24">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <Reveal as="div" className="flex flex-col md:flex-row md:justify-between md:items-end gap-4 mb-12">
           <div>

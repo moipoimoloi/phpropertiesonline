@@ -17,7 +17,7 @@ const jsonLd = {
 
 export function Faq() {
   return (
-    <section id="faq" className="py-28 lg:py-32 bg-surface">
+    <section id="faq" className="py-16 lg:py-32 bg-surface">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12 lg:gap-20">
           <Reveal as="div" className="lg:sticky lg:top-36 lg:self-start">

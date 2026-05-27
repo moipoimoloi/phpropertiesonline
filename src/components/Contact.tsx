@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-28 lg:py-32 bg-surface">
+    <section id="contact" className="py-16 lg:py-32 bg-surface">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <Reveal as="div">
