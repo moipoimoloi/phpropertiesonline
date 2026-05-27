@@ -247,12 +247,13 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <a
               href="#contact"
-              className="cta-hover-glow bg-primary text-white px-5 sm:px-7 py-3 rounded-xl font-display font-semibold text-label-md hover:bg-primary-container hover:-translate-y-0.5 transition-all duration-200 min-h-11 inline-flex items-center touch-manipulation focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary shadow-md"
+              className="cta-hover-glow bg-primary text-white px-3.5 sm:px-7 py-2 sm:py-3 rounded-xl font-display font-semibold text-[13px] sm:text-label-md hover:bg-primary-container hover:-translate-y-0.5 transition-all duration-200 min-h-10 sm:min-h-11 inline-flex items-center touch-manipulation focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary shadow-md"
             >
-              Book a Viewing
+              <span className="sm:hidden">Book</span>
+              <span className="hidden sm:inline">Book a Viewing</span>
             </a>
             <button
               type="button"

@@ -25,7 +25,10 @@ export function Hero() {
   }
 
   return (
-    <section id="hero" className="relative h-screen min-h-[760px] flex flex-col justify-end">
+    <section
+      id="hero"
+      className="relative min-h-[640px] lg:h-screen lg:min-h-[760px] flex flex-col justify-end"
+    >
       <video
         className="absolute inset-0 w-full h-full object-cover"
         src="/hero.mp4"
@@ -39,25 +42,34 @@ export function Hero() {
       />
       <div className="absolute inset-0 hero-gradient" aria-hidden />
 
-      <div className="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-20 lg:pb-24">
+      <div className="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-28 pb-10 lg:pt-0 lg:pb-24">
         {/* ====== Text panel — backdrop blur veil for typographic clarity ====== */}
-        <div className="hero-fade-up max-w-[720px] text-white mb-12 lg:mb-14">
-          <span className="inline-block bg-white/95 text-primary px-4 py-1.5 rounded-full text-label-sm shadow-lg mb-7">
+        <div className="hero-fade-up max-w-[720px] text-white mb-8 lg:mb-14">
+          <span className="inline-block bg-white/95 text-primary px-3 py-1 sm:px-4 sm:py-1.5 rounded-full text-[11px] sm:text-label-sm shadow-lg mb-5 sm:mb-7 leading-snug">
             SMART PROPERTY INVESTMENTS · CURATED FOR LONG-TERM VALUE
           </span>
-          <h1 className="font-display font-extrabold text-white mb-6 leading-[1.05] tracking-tight text-[clamp(2.5rem,5.5vw,3.75rem)]">
+          <h1 className="font-display font-extrabold text-white mb-4 sm:mb-6 leading-[1.1] lg:leading-[1.05] tracking-tight text-[clamp(1.85rem,5.5vw,3.75rem)]">
             Invest in properties positioned for long-term growth.
           </h1>
-          <p className="font-body text-white/85 text-body-lg max-w-[620px] leading-relaxed">
+          <p className="font-body text-white/85 text-base sm:text-body-lg max-w-[620px] leading-relaxed">
             From Metro Manila condominiums to master-planned estates in Laguna and Pampanga, I help families and
             investors make informed property decisions with guided site visits and personalized computations.
           </p>
 
           {/* ====== Trust badges row ====== */}
-          <ul className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 text-white/90 text-label-sm">
-            <TrustBadge>Licensed Real Estate Broker · REB No. 0033432</TrustBadge>
-            <TrustBadge>Accredited Property Specialist · Avida Land Corp.</TrustBadge>
-            <TrustBadge>Recognized Sales Performance · Top 9 Team · Q1 2026</TrustBadge>
+          <ul className="mt-6 sm:mt-8 flex flex-wrap items-center gap-x-2 sm:gap-x-3 gap-y-2 text-white/90 text-[12px] sm:text-label-sm">
+            <TrustBadge>
+              <span className="sm:hidden">Licensed Broker · REB No. 0033432</span>
+              <span className="hidden sm:inline">Licensed Real Estate Broker · REB No. 0033432</span>
+            </TrustBadge>
+            <TrustBadge>
+              <span className="sm:hidden">Accredited · Avida Land Corp.</span>
+              <span className="hidden sm:inline">Accredited Property Specialist · Avida Land Corp.</span>
+            </TrustBadge>
+            <TrustBadge>
+              <span className="sm:hidden">Top 9 Sales Team · Q1 2026</span>
+              <span className="hidden sm:inline">Recognized Sales Performance · Top 9 Team · Q1 2026</span>
+            </TrustBadge>
           </ul>
         </div>
 
