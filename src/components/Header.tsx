@@ -6,6 +6,7 @@ import { Icon } from "./Icon";
 import { BROKER } from "@/data/properties";
 
 const navLinks = [
+  { href: "#hero", label: "Home" },
   { href: "#properties", label: "Properties" },
   { href: "#about", label: "About" },
   { href: "#testimonials", label: "Stories" },

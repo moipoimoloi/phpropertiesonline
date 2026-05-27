@@ -71,8 +71,9 @@ export function PropertyGrid({ filters }: { filters?: PropertyFilters }) {
             {filtered && (
               <Link
                 href="/#properties"
-                className="text-on-surface-variant font-display font-semibold text-label-md hover:text-primary"
+                className="inline-flex items-center gap-1.5 border border-outline-variant bg-white text-on-surface font-display font-semibold text-label-md px-3 py-1.5 rounded-full hover:border-primary hover:text-primary hover:bg-primary/5 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
+                <Icon name="close" className="text-base" />
                 Clear filters
               </Link>
             )}
