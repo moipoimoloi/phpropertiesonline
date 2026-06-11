@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Open_Sans, Cormorant_Garamond } from "next/font/google";
 import { BROKER } from "@/data/properties";
+import { SmoothScroll } from "@/components/SmoothScroll";
 import "./globals.css";
 
 const display = Plus_Jakarta_Sans({
@@ -147,7 +148,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-background text-on-surface">{children}</body>
+      <body className="bg-background text-on-surface">
+        <SmoothScroll>{children}</SmoothScroll>
+      </body>
     </html>
   );
 }
